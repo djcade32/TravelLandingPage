@@ -1,0 +1,64 @@
+#Nav-bar {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  margin: 50px 25px;
+}
+
+.links {
+  display: inline-block;
+}
+
+.logoContainer {
+  display: inline-block;
+  position: relative;
+  right: 300px;
+}
+
+.logoContainer:hover {
+  color: white;
+}
+
+.registerButtonContainer {
+  margin-left: 10px;
+  display: inline-block;
+  position: relative;
+  left: 350px;
+}
+
+.nav-links {
+  margin: 25px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  color: #4949d6;
+}
+
+.registerButton {
+  background-color: #4949d6;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 32px 76px;
+  text-decoration: none;
+}
+
+.space {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.out {
+  font-size: 25px;
+  font-weight: bold;
+  color: #4949d6;
+  text-decoration: none;
+}
+
+.space:hover {
+  cursor: pointer;
+  color: #4949d6;
+}
