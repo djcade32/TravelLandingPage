@@ -1,9 +1,30 @@
-#Nav-bar {
+body {
   font-family: Roboto;
+}
+
+#Nav-bar {
   font-size: 20px;
   font-style: normal;
+  font-weight: 600;
   text-align: center;
-  margin: 50px 25px;
+  padding: 50px 25px;
+}
+
+#hero-section {
+  padding: 25px 250px;
+  margin-top: 40px;
+}
+
+#destinationInput {
+  display: block;
+  position: relative;
+  left: 50px;
+  bottom: 325px;
+  width: 596.5px;
+  height: 100px;
+  border-width: 2px;
+  border-color: #80808052;
+  font-size: 40px;
 }
 
 .links {
@@ -24,7 +45,7 @@
   margin-left: 10px;
   display: inline-block;
   position: relative;
-  left: 350px;
+  left: 290px;
 }
 
 .nav-links {
@@ -46,13 +67,13 @@
 }
 
 .space {
-  font-size: 25px;
+  font-size: 40px;
   font-weight: bold;
   text-decoration: none;
 }
 
 .out {
-  font-size: 25px;
+  font-size: 40px;
   font-weight: bold;
   color: #4949d6;
   text-decoration: none;
@@ -64,7 +85,7 @@
 }
 
 .spaceshipIcon {
-  width: 50px;
+  width: 65px;
   position: relative;
   left: 10px;
   top: 10px;
@@ -72,4 +93,38 @@
 
 .spaceshipIcon:hover {
   cursor: pointer;
+}
+
+.image1-container {
+  height: 700px;
+  width: 450px;
+  background-color: red;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.image2-container {
+  height: 700px;
+  width: 350px;
+  background-color: #4949d6;
+  display: inline-block;
+  margin-left: 50px;
+  overflow: hidden;
+}
+
+.hero-title {
+  font-size: 70px;
+  width: 450px;
+  display: inline-block;
+  position: relative;
+  bottom: 400px;
+  left: 50px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+.hero-images {
+  display: inline-block;
+  position: relative;
+  left: 200px;
 }
