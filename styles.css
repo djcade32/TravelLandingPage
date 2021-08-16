@@ -19,7 +19,7 @@ body {
   display: block;
   position: relative;
   left: 50px;
-  bottom: 325px;
+  bottom: 680px;
   width: 596.5px;
   height: 100px;
   border-width: 2px;
@@ -66,6 +66,27 @@ body {
   text-decoration: none;
 }
 
+.registerButton:hover {
+  background-color: #7474f3;
+}
+
+.searchButton {
+  background-color: #4949d6;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 22px 50px;
+  border: 5px solid white;
+  text-decoration: none;
+  font-size: 40px;
+  position: relative;
+  left: 653px;
+  bottom: 890.6px;
+}
+
+.searchButton:hover {
+  background-color: #7474f3;
+}
+
 .space {
   font-size: 40px;
   font-weight: bold;
@@ -77,6 +98,10 @@ body {
   font-weight: bold;
   color: #4949d6;
   text-decoration: none;
+}
+
+.out:hover {
+  color: #7474f3;
 }
 
 .space:hover {
@@ -96,17 +121,15 @@ body {
 }
 
 .image1-container {
-  height: 700px;
+  height: 1000px;
   width: 450px;
-  background-color: red;
   display: inline-block;
   overflow: hidden;
 }
 
 .image2-container {
-  height: 700px;
+  height: 1000px;
   width: 350px;
-  background-color: #4949d6;
   display: inline-block;
   margin-left: 50px;
   overflow: hidden;
@@ -117,7 +140,7 @@ body {
   width: 450px;
   display: inline-block;
   position: relative;
-  bottom: 400px;
+  bottom: 750px;
   left: 50px;
   letter-spacing: 2px;
   line-height: 1.5;
@@ -127,4 +150,62 @@ body {
   display: inline-block;
   position: relative;
   left: 200px;
+}
+
+.hero-image-description {
+  display: inline-block;
+  position: relative;
+  bottom: 600px;
+  font-size: 25px;
+  right: 210px;
+  width: 550px;
+}
+
+.hero-image-description-paragraph {
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.arrowLeft {
+  background-color: #4949d6;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 25px 21px;
+  text-decoration: none;
+}
+
+.arrowLeft:hover {
+  background-color: #7474f3;
+}
+
+.arrowRight {
+  background-color: #dcdcdd;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 25px 21px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.arrowRight:hover {
+  background-color: #80808052;
+}
+
+.fa-arrow-right {
+  color: black;
+}
+
+.arrows {
+  display: inline-block;
+  position: relative;
+  right: 760px;
+  bottom: 400px;
 }
