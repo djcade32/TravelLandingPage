@@ -62,3 +62,14 @@
   cursor: pointer;
   color: #4949d6;
 }
+
+.spaceshipIcon {
+  width: 50px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+.spaceshipIcon:hover {
+  cursor: pointer;
+}
