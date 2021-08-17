@@ -8,6 +8,10 @@ body {
   bottom: 150px;
 }
 
+#footer-section {
+  padding: 250px 250px 200px;
+}
+
 #Nav-bar {
   font-size: 20px;
   font-style: normal;
@@ -294,4 +298,24 @@ body {
   position: relative;
   right: 50px;
   bottom: 20px;
+}
+
+.socialInfoDescription {
+  margin: 40px 0px 40px 25px;
+  width: 500px;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.socialLogosCollection {
+  margin-left: 25px;
+}
+
+.socialLinks {
+  color: black;
+  margin: 20px;
+}
+
+.socialLinks:hover {
+  color: #80808052;
 }
