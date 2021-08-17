@@ -258,3 +258,40 @@ body {
   bottom: 50px;
   line-height: 1.5;
 }
+
+.exploreTitle {
+  position: absolute;
+  left: 310px;
+  width: 400px;
+  line-height: 1.5;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 100px 0px;
+}
+
+.exploreImg {
+  width: 400px;
+  height: 500px;
+  display: inline-block;
+  margin: 40px;
+  overflow: hidden;
+}
+
+.exploreImgCollection {
+  display: inline-block;
+  position: relative;
+  left: 250px;
+  top: 125px;
+}
+
+.brooklynBridgeImg {
+  position: relative;
+  right: 50px;
+  bottom: 50px;
+}
+
+.libertyImg {
+  position: relative;
+  right: 50px;
+  bottom: 20px;
+}
