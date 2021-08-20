@@ -363,3 +363,7 @@ a {
 a:hover {
   color: #4949d6;
 }
+
+.nav-links:hover {
+  border-bottom: 2px solid #4949d6;
+}
